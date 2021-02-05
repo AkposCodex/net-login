@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+}
+
+.topHead {
+  width: 100vw;
+  height: 90vh;
+  background: url("../images/abstract.jpg");
+  background-position: center;
+}
+
+.topHead ul {
+  margin: 0;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 22px;
+}
+
+.topHead ul li {
+  display: inline;
+  margin: 0 2em;
+}
+
+.topHead ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.topHead header {
+  background: transparent;
+  position: fixed;
+  right: 10px;
+  background: url("../images/abstract.jpg");
+  background-position: 60% 35%;
+  width: 100vw;
+  height: 5vh;
+}
+
+.topHead h1 {
+  color: white;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 3.5em 3em 0 2em;
+}
+
+.topHead h1 .Spectre {
+  display: block;
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+.topHead h1 .Spectre .In {
+  color: lime;
+}
+
+footer div {
+  color: black;
+  text-align: center;
+  background: lime;
+  padding-top: .2px;
+  font-weight: 400;
+  height: 60px;
+}
+
+footer div p {
+  font-size: 20px;
+}
+/*# sourceMappingURL=main.css.map */

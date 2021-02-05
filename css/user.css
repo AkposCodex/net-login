@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap");
+body {
+  margin: 0;
+  padding: 1em;
+  font-family: "Montserrat", "sans-serif";
+  background-color: #112e0c;
+  background: url("../images/sunlight-trees-forest.jpg");
+  background-repeat: round;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body header {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+body header span {
+  color: lime;
+}
+
+body h1 {
+  padding: 0 2em 0;
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+body h1 span {
+  color: lime;
+}
+
+.form {
+  width: 40vw;
+  height: auto;
+  margin: auto;
+  padding: 2em 2em;
+  background: white;
+  border-radius: 20px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.form .seperator {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  border-right: gray 4px solid;
+  height: 450px;
+  width: 2px;
+}
+
+.form .form_left {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+}
+
+.form .form_left a {
+  color: #018601;
+}
+
+.form .divider {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+}
+
+.form .form_right {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+}
+
+.form h2 {
+  font-size: 40px;
+  text-align: start;
+}
+
+.form .login_form span {
+  color: #018601;
+}
+
+.form .login_form input {
+  display: block;
+  height: 3em;
+  width: 25vw;
+  font-size: 1rem;
+  text-align: center;
+  margin: 1em;
+  border-radius: 5px;
+  border: gray solid 2px;
+}
+
+.form .login_form input[type=button] {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: green;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.form .login_form input[type=button]:hover {
+  background-color: #4bc24b;
+  cursor: pointer;
+}
+
+.form .login_form label {
+  font-size: 24px;
+}
+
+.form .sign_up_form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.form .sign_up_form span {
+  color: #018601;
+}
+
+.form .sign_up_form input {
+  display: block;
+  height: 3em;
+  width: 25vw;
+  margin: 1em;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: gray  2px solid;
+}
+
+.form .sign_up_form input[type=button] {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: green;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.form .sign_up_form input[type=button]:hover {
+  background-color: #4bc24b;
+  cursor: pointer;
+}
+
+.form .sign_up_form label {
+  font-size: 24px;
+}
+
+.form .sign_up_form #re-pass {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+}
+
+.form .sign_up_form #btn {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  width: auto;
+  grid-column-end: 2;
+}
+
+.form .sign_up_form #last {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+}
+
+.grid {
+  width: auto;
+  -ms-grid-columns: 30vw 5vw 30vw;
+      grid-template-columns: 30vw 5vw 30vw;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+/*# sourceMappingURL=user.css.map */
